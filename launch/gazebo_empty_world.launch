@@ -2,7 +2,7 @@
   <arg name="world_file"        default="$(find multi_agent_slam)/worlds/empty.world"/>
   <arg name="gui"               default="true"/>
   <arg name="debug"             default="false"/>
-  <arg name="verbose"           default="false"/>
+  <arg name="verbose"           default="true"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="use_sim_time" value="true"/>
